@@ -28,3 +28,18 @@
 2025-04-04 08:56:55,197 - data_fetcher - DEBUG - fetch_regional_data kwargs: {'use_cache': True}
 2025-04-04 08:56:55,197 - data_fetcher - INFO - Using cached regional data from 2025-04-04 06:32:31.055200
 2025-04-04 08:56:55,200 - data_fetcher - DEBUG - Exiting fetch_regional_data (execution time: 0.00s)
+2025-04-04 09:00:00,741 - data_fetcher - DEBUG - Entering fetch_vaccination_data
+2025-04-04 09:00:00,741 - data_fetcher - DEBUG - fetch_vaccination_data args: (<data_fetcher.VaccinationDataFetcher object at 0x000001C86A1C1010>,)
+2025-04-04 09:00:00,741 - data_fetcher - DEBUG - fetch_vaccination_data kwargs: {'use_cache': True}
+2025-04-04 09:00:00,741 - data_fetcher - INFO - Using cached vaccination data from 2025-04-04 06:32:29.035611
+2025-04-04 09:00:00,747 - data_fetcher - DEBUG - Exiting fetch_vaccination_data (execution time: 0.01s)
+2025-04-04 09:00:00,763 - data_fetcher - DEBUG - Entering fetch_daily_stats
+2025-04-04 09:00:00,764 - data_fetcher - DEBUG - fetch_daily_stats args: (<data_fetcher.VaccinationDataFetcher object at 0x000001C86A1C1010>,)
+2025-04-04 09:00:00,764 - data_fetcher - DEBUG - fetch_daily_stats kwargs: {'use_cache': True}
+2025-04-04 09:00:00,764 - data_fetcher - INFO - Using cached daily stats from 2025-04-04 06:32:30.046061
+2025-04-04 09:00:00,767 - data_fetcher - DEBUG - Exiting fetch_daily_stats (execution time: 0.00s)
+2025-04-04 09:00:00,770 - data_fetcher - DEBUG - Entering fetch_regional_data
+2025-04-04 09:00:00,770 - data_fetcher - DEBUG - fetch_regional_data args: (<data_fetcher.VaccinationDataFetcher object at 0x000001C86A1C1010>,)
+2025-04-04 09:00:00,770 - data_fetcher - DEBUG - fetch_regional_data kwargs: {'use_cache': True}
+2025-04-04 09:00:00,770 - data_fetcher - INFO - Using cached regional data from 2025-04-04 06:32:31.055200
+2025-04-04 09:00:00,772 - data_fetcher - DEBUG - Exiting fetch_regional_data (execution time: 0.00s)
