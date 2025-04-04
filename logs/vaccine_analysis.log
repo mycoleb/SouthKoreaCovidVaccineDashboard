@@ -1,0 +1,93 @@
+2025-04-04 06:32:27,995 - main - INFO - Starting South Korea COVID-19 vaccination analysis
+2025-04-04 06:32:27,996 - main - INFO - Fetching data...
+2025-04-04 06:32:27,997 - data_fetcher - INFO - Fetching vaccination data from KDCA website
+2025-04-04 06:32:29,037 - data_fetcher - INFO - Saved vaccination data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\raw\vaccination_data.csv
+2025-04-04 06:32:29,037 - data_fetcher - INFO - Fetching daily stats from KDCA website
+2025-04-04 06:32:30,048 - data_fetcher - INFO - Saved daily stats to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\raw\daily_stats.csv
+2025-04-04 06:32:30,049 - data_fetcher - INFO - Fetching regional vaccination data
+2025-04-04 06:32:31,056 - data_fetcher - INFO - Saved regional data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\raw\regional_data.csv
+2025-04-04 06:32:31,057 - main - INFO - Processing data...
+2025-04-04 06:32:31,092 - data_processor - INFO - Processing vaccination data
+2025-04-04 06:32:31,107 - data_processor - INFO - Saved processed vaccination data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_vaccination_data.csv
+2025-04-04 06:32:31,123 - data_processor - INFO - Processing daily stats
+2025-04-04 06:32:31,134 - data_processor - INFO - Saved processed daily stats to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_daily_stats.csv
+2025-04-04 06:32:31,145 - data_processor - INFO - Processing regional data
+2025-04-04 06:32:31,151 - data_processor - INFO - Saved processed regional data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_regional_data.csv
+2025-04-04 06:32:31,175 - data_processor - INFO - Generating vaccination summary
+2025-04-04 06:32:31,177 - data_processor - INFO - Saved vaccination summary to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\vaccination_summary.json
+2025-04-04 06:32:31,177 - main - INFO - Creating visualizations...
+2025-04-04 06:32:31,192 - visualizer - INFO - Creating vaccination progress visualization
+2025-04-04 06:32:32,297 - visualizer - INFO - Saved vaccination progress visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_progress.png
+2025-04-04 06:32:32,324 - visualizer - INFO - Creating regional comparison visualization
+2025-04-04 06:32:32,692 - visualizer - INFO - Saved regional comparison visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_comparison.png
+2025-04-04 06:32:32,714 - visualizer - INFO - Creating vaccine distribution visualization
+2025-04-04 06:32:33,070 - visualizer - INFO - Saved vaccine distribution visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccine_distribution.png
+2025-04-04 06:32:33,078 - visualizer - INFO - Creating vaccination impact visualization
+2025-04-04 06:32:33,488 - visualizer - INFO - Saved vaccination impact visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_impact.png
+2025-04-04 06:32:33,497 - visualizer - INFO - Creating regional heatmap visualization
+2025-04-04 06:32:33,946 - visualizer - INFO - Saved regional heatmap to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_heatmap.png
+2025-04-04 06:32:33,946 - main - INFO - Creating dashboard...
+2025-04-04 06:32:33,946 - visualizer - INFO - Creating dashboard
+2025-04-04 06:32:33,946 - main - INFO - Analysis complete. Dashboard saved to None
+2025-04-04 06:32:33,947 - main - INFO - Opening dashboard in web browser
+2025-04-04 06:32:33,947 - main - ERROR - Failed to open dashboard in browser: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'NoneType'
+2025-04-04 06:37:01,246 - main - INFO - Starting South Korea COVID-19 vaccination analysis
+2025-04-04 06:37:01,247 - main - INFO - Fetching data...
+2025-04-04 06:37:01,248 - data_fetcher - INFO - Using cached vaccination data from 2025-04-04 06:32:29.035611
+2025-04-04 06:37:01,313 - data_fetcher - INFO - Using cached daily stats from 2025-04-04 06:32:30.046061
+2025-04-04 06:37:01,363 - data_fetcher - INFO - Using cached regional data from 2025-04-04 06:32:31.055200
+2025-04-04 06:37:01,392 - main - INFO - Processing data...
+2025-04-04 06:37:01,412 - data_processor - INFO - Processing vaccination data
+2025-04-04 06:37:01,433 - data_processor - INFO - Saved processed vaccination data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_vaccination_data.csv
+2025-04-04 06:37:01,453 - data_processor - INFO - Processing daily stats
+2025-04-04 06:37:01,463 - data_processor - INFO - Saved processed daily stats to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_daily_stats.csv
+2025-04-04 06:37:01,473 - data_processor - INFO - Processing regional data
+2025-04-04 06:37:01,477 - data_processor - INFO - Saved processed regional data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_regional_data.csv
+2025-04-04 06:37:01,501 - data_processor - INFO - Generating vaccination summary
+2025-04-04 06:37:01,504 - data_processor - INFO - Saved vaccination summary to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\vaccination_summary.json
+2025-04-04 06:37:01,504 - main - INFO - Creating visualizations...
+2025-04-04 06:37:01,519 - visualizer - INFO - Creating vaccination progress visualization
+2025-04-04 06:37:02,041 - visualizer - INFO - Saved vaccination progress visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_progress.png
+2025-04-04 06:37:02,069 - visualizer - INFO - Creating regional comparison visualization
+2025-04-04 06:37:02,420 - visualizer - INFO - Saved regional comparison visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_comparison.png
+2025-04-04 06:37:02,435 - visualizer - INFO - Creating vaccine distribution visualization
+2025-04-04 06:37:02,761 - visualizer - INFO - Saved vaccine distribution visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccine_distribution.png
+2025-04-04 06:37:02,775 - visualizer - INFO - Creating vaccination impact visualization
+2025-04-04 06:37:03,187 - visualizer - INFO - Saved vaccination impact visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_impact.png
+2025-04-04 06:37:03,196 - visualizer - INFO - Creating regional heatmap visualization
+2025-04-04 06:37:03,665 - visualizer - INFO - Saved regional heatmap to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_heatmap.png
+2025-04-04 06:37:03,665 - main - INFO - Creating dashboard...
+2025-04-04 06:37:03,665 - visualizer - INFO - Creating dashboard
+2025-04-04 06:37:03,666 - visualizer - INFO - Saved dashboard to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\dashboard.html
+2025-04-04 06:37:03,667 - main - INFO - Analysis complete. Dashboard saved to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\dashboard.html
+2025-04-04 06:37:03,667 - main - INFO - Opening dashboard in web browser
+2025-04-04 06:52:13,845 - main - INFO - Starting South Korea COVID-19 vaccination analysis
+2025-04-04 06:52:13,846 - main - INFO - Fetching data...
+2025-04-04 06:52:13,846 - data_fetcher - INFO - Using cached vaccination data from 2025-04-04 06:32:29.035611
+2025-04-04 06:52:13,853 - data_fetcher - INFO - Using cached daily stats from 2025-04-04 06:32:30.046061
+2025-04-04 06:52:13,856 - data_fetcher - INFO - Using cached regional data from 2025-04-04 06:32:31.055200
+2025-04-04 06:52:13,862 - main - INFO - Processing data...
+2025-04-04 06:52:13,896 - data_processor - INFO - Processing vaccination data
+2025-04-04 06:52:13,917 - data_processor - INFO - Saved processed vaccination data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_vaccination_data.csv
+2025-04-04 06:52:13,936 - data_processor - INFO - Processing daily stats
+2025-04-04 06:52:13,948 - data_processor - INFO - Saved processed daily stats to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_daily_stats.csv
+2025-04-04 06:52:13,956 - data_processor - INFO - Processing regional data
+2025-04-04 06:52:13,961 - data_processor - INFO - Saved processed regional data to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\processed_regional_data.csv
+2025-04-04 06:52:13,986 - data_processor - INFO - Generating vaccination summary
+2025-04-04 06:52:13,990 - data_processor - INFO - Saved vaccination summary to C:\Users\mycol\edu\SouthKoreaVaccineProject\data\processed\vaccination_summary.json
+2025-04-04 06:52:13,990 - main - INFO - Creating visualizations...
+2025-04-04 06:52:14,004 - visualizer - INFO - Creating vaccination progress visualization
+2025-04-04 06:52:14,427 - visualizer - INFO - Saved vaccination progress visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_progress.png
+2025-04-04 06:52:14,439 - visualizer - INFO - Creating regional comparison visualization
+2025-04-04 06:52:14,754 - visualizer - INFO - Saved regional comparison visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_comparison.png
+2025-04-04 06:52:14,772 - visualizer - INFO - Creating vaccine distribution visualization
+2025-04-04 06:52:15,034 - visualizer - INFO - Saved vaccine distribution visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccine_distribution.png
+2025-04-04 06:52:15,042 - visualizer - INFO - Creating vaccination impact visualization
+2025-04-04 06:52:15,434 - visualizer - INFO - Saved vaccination impact visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_impact.png
+2025-04-04 06:52:15,445 - visualizer - INFO - Creating regional heatmap visualization
+2025-04-04 06:52:15,834 - visualizer - INFO - Saved regional heatmap to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_heatmap.png
+2025-04-04 06:52:15,835 - main - INFO - Creating dashboard...
+2025-04-04 06:52:15,835 - visualizer - INFO - Creating dashboard
+2025-04-04 06:52:15,836 - visualizer - INFO - Saved dashboard to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\dashboard.html
+2025-04-04 06:52:15,837 - main - INFO - Analysis complete. Dashboard saved to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\dashboard.html
+2025-04-04 06:52:15,837 - main - INFO - Opening dashboard in web browser
