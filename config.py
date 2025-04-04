@@ -1,57 +1,65 @@
-"""
-Configuration settings for the South Korea COVID-19 vaccination analysis project.
-"""
+# Data source URLs (updated with multiple reliable sources)
+# Primary source: KDCA (Korean Disease Control and Prevention Agency)
+KDCA_VACCINATION_URL = "https://ncv.kdca.go.kr/api/stats/mainStatus"
+KDCA_DAILY_STATS_URL = "https://ncv.kdca.go.kr/api/stats/dailyStats"
+KCDC_DASHBOARD_URL = "https://ncv.kdca.go.kr/mainStatus.es"  # For web scraping if API fails
 
+# Ministry of Health and Welfare
+MOHW_API_URL = "https://www.mohw.go.kr/react/api/covidVaccineStatus.jsp"
+
+# Regional data API (from KDCA or other government sources)
+REGIONAL_DATA_URL = "https://ncv.kdca.go.kr/api/stats/regionalStatus"
+
+# Secondary source: Our World in Data
+OWID_VACCINATION_URL = "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/South Korea.csv"
+
+# Open-source community project data (provides curated Korean COVID data)
+OSS_VACCINATION_URL = "https://github.com/jooeungen/coronaboard_kr/blob/master/korea_data.csv"
+
+# Tertiary source: Johns Hopkins CSSE
+JH_CASES_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+JH_DEATHS_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+
+# Final fallback: WHO
+WHO_API_URL = "https://covid19.who.int/WHO-COVID-19-global-data.csv"
+
+# Directory paths
 import os
-from pathlib import Path
-
-# Base directory
-BASE_DIR = Path(__file__).parent.absolute()
-
-# Data directories
-DATA_DIR = os.path.join(BASE_DIR, 'data')
-RAW_DATA_DIR = os.path.join(DATA_DIR, 'raw')
-PROCESSED_DATA_DIR = os.path.join(DATA_DIR, 'processed')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RAW_DATA_DIR = os.path.join(BASE_DIR, 'data', 'raw')
+PROCESSED_DATA_DIR = os.path.join(BASE_DIR, 'data', 'processed')
 OUTPUT_DIR = os.path.join(BASE_DIR, 'output')
-LOGS_DIR = os.path.join(BASE_DIR, 'logs')
 
-# Create directories if they don't exist
-for directory in [DATA_DIR, RAW_DATA_DIR, PROCESSED_DATA_DIR, OUTPUT_DIR, LOGS_DIR]:
-    os.makedirs(directory, exist_ok=True)
+# Define date format for consistency
+DATE_FORMAT = '%Y-%m-%d'
 
-# Data source URLs
-VACCINATION_DATA_URL = "https://ncv.kdca.go.kr/eng/mainStatus.es?mid=a11702000000"
-DAILY_STATS_URL = "https://ncv.kdca.go.kr/eng/bdBoardList.es?mid=a30401000000"
+# South Korea population (approximate)
+POPULATION = 51_000_000
 
-# Korean regions (in English)
+# Define regions in South Korea
 REGIONS = [
-    'Seoul', 'Busan', 'Daegu', 'Incheon', 'Gwangju', 'Daejeon', 'Ulsan', 
-    'Sejong', 'Gyeonggi', 'Gangwon', 'Chungbuk', 'Chungnam', 'Jeonbuk', 
-    'Jeonnam', 'Gyeongbuk', 'Gyeongnam', 'Jeju'
+    'Seoul', 'Busan', 'Daegu', 'Incheon', 'Gwangju', 'Daejeon', 'Ulsan', 'Sejong',
+    'Gyeonggi', 'Gangwon', 'Chungbuk', 'Chungnam', 'Jeonbuk', 'Jeonnam', 'Gyeongbuk', 'Gyeongnam', 'Jeju'
 ]
 
-# Vaccine types
+# Define vaccine types
 VACCINE_TYPES = ['Pfizer', 'Moderna', 'AstraZeneca', 'Janssen', 'Novavax']
 
-# Date format
-DATE_FORMAT = '%Y-%m-%d'
+# Define color palette for consistent visualizations
+COLOR_PALETTE = {
+    'First Dose': '#4e79a7',
+    'Second Dose': '#f28e2c',
+    'Booster': '#59a14f',
+    'Cases': '#e15759',
+    'Deaths': '#76b7b2',
+    'Tests': '#edc949',
+    'Pfizer': '#af7aa1',
+    'Moderna': '#ff9da7',
+    'AstraZeneca': '#9c755f',
+    'Janssen': '#bab0ab',
+    'Novavax': '#d3d3d3'
+}
 
 # Visualization settings
 VISUALIZATION_DPI = 300
 FIGURE_SIZE = (12, 8)
-COLOR_PALETTE = {
-    'Pfizer': '#2c7fb8',
-    'Moderna': '#7fcdbb',
-    'AstraZeneca': '#edf8b1',
-    'Janssen': '#2c7fb8',
-    'Novavax': '#253494',
-    'First Dose': '#66c2a5',
-    'Second Dose': '#fc8d62',
-    'Booster': '#8da0cb',
-    'Fourth Dose': '#e78ac3'
-}
-
-# Logging configuration
-LOG_LEVEL = 'INFO'
-LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-LOG_FILE = os.path.join(LOGS_DIR, 'vaccine_analysis.log')

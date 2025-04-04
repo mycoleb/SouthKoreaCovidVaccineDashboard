@@ -1,0 +1,214 @@
+2025-04-04 08:14:34,605 - visualizer - DEBUG - Entering visualize_vaccination_progress
+2025-04-04 08:14:34,714 - visualizer - DEBUG - visualize_vaccination_progress args: (<visualizer.VaccinationVisualizer object at 0x0000020C62AFC980>,           date  daily_first_dose  ...  daily_booster_change  daily_total_change
+0   2024-04-04           6149243  ...                   NaN                 NaN
+1   2024-04-05             79581  ...                   NaN          -98.705841
+2   2024-04-06             80435  ...                   NaN            1.073120
+3   2024-04-07             81296  ...                   NaN            1.070430
+4   2024-04-08             82160  ...                   NaN            1.062783
+..         ...               ...  ...                   ...                 ...
+361 2025-03-31             16716  ...             -0.353019           -0.574366
+362 2025-04-01             16479  ...             -0.362751           -0.581792
+363 2025-04-02             16247  ...             -0.373894           -0.588296
+364 2025-04-03             16018  ...             -0.383842           -0.594375
+365 2025-04-04             15790  ...             -0.395218           -0.602633
+
+[366 rows x 29 columns])
+2025-04-04 08:14:34,715 - visualizer - INFO - Creating vaccination progress visualization
+2025-04-04 08:14:35,467 - visualizer - INFO - Saved vaccination progress visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_progress.png
+2025-04-04 08:14:35,467 - visualizer - DEBUG - Exiting visualize_vaccination_progress (execution time: 0.75s)
+2025-04-04 08:14:35,468 - visualizer - DEBUG - Entering visualize_regional_comparison
+2025-04-04 08:14:35,486 - visualizer - DEBUG - visualize_regional_comparison args: (<visualizer.VaccinationVisualizer object at 0x0000020C62AFC980>,        region  population  ...  second_dose_percentage_rank  booster_percentage_rank
+0       Seoul    10200000  ...                            1                        1
+1       Busan     3570000  ...                            4                        4
+2       Daegu     2550000  ...                            7                        7
+3     Incheon     3060000  ...                           12                       12
+4     Gwangju     1530000  ...                           13                       13
+5     Daejeon     1530000  ...                            9                        9
+6       Ulsan     1020000  ...                           16                       16
+7      Sejong      510000  ...                            3                        3
+8    Gyeonggi    12750000  ...                            2                        2
+9     Gangwon     1530000  ...                           14                       14
+10   Chungbuk     1530000  ...                           17                       17
+11   Chungnam     2040000  ...                           15                       15
+12    Jeonbuk     1530000  ...                            6                        6
+13    Jeonnam     1530000  ...                           10                       10
+14  Gyeongbuk     2550000  ...                            8                        8
+15  Gyeongnam     3060000  ...                           11                       11
+16       Jeju      510000  ...                            5                        5
+
+[17 rows x 15 columns])
+2025-04-04 08:14:35,486 - visualizer - INFO - Creating regional comparison visualization
+2025-04-04 08:14:36,095 - visualizer - INFO - Saved regional comparison visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_comparison.png
+2025-04-04 08:14:36,096 - visualizer - DEBUG - Exiting visualize_regional_comparison (execution time: 0.61s)
+2025-04-04 08:14:36,096 - visualizer - DEBUG - Entering visualize_vaccine_distribution
+2025-04-04 08:14:36,117 - visualizer - DEBUG - visualize_vaccine_distribution args: (<visualizer.VaccinationVisualizer object at 0x0000020C62AFC980>,           date  daily_first_dose  ...  daily_booster_change  daily_total_change
+0   2024-04-04           6149243  ...                   NaN                 NaN
+1   2024-04-05             79581  ...                   NaN          -98.705841
+2   2024-04-06             80435  ...                   NaN            1.073120
+3   2024-04-07             81296  ...                   NaN            1.070430
+4   2024-04-08             82160  ...                   NaN            1.062783
+..         ...               ...  ...                   ...                 ...
+361 2025-03-31             16716  ...             -0.353019           -0.574366
+362 2025-04-01             16479  ...             -0.362751           -0.581792
+363 2025-04-02             16247  ...             -0.373894           -0.588296
+364 2025-04-03             16018  ...             -0.383842           -0.594375
+365 2025-04-04             15790  ...             -0.395218           -0.602633
+
+[366 rows x 29 columns])
+2025-04-04 08:14:36,117 - visualizer - INFO - Creating vaccine distribution visualization
+2025-04-04 08:14:36,547 - visualizer - INFO - Saved vaccine distribution visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccine_distribution.png
+2025-04-04 08:14:36,547 - visualizer - DEBUG - Exiting visualize_vaccine_distribution (execution time: 0.43s)
+2025-04-04 08:14:36,547 - visualizer - DEBUG - Entering visualize_vaccination_impact
+2025-04-04 08:14:36,569 - visualizer - DEBUG - visualize_vaccination_impact args: (<visualizer.VaccinationVisualizer object at 0x0000020C62AFC980>,           date  ...  booster_percentage_case_correlation
+0   2024-04-04  ...                            -0.384781
+1   2024-04-05  ...                            -0.384781
+2   2024-04-06  ...                            -0.384781
+3   2024-04-07  ...                            -0.384781
+4   2024-04-08  ...                            -0.384781
+..         ...  ...                                  ...
+361 2025-03-31  ...                            -0.384781
+362 2025-04-01  ...                            -0.384781
+363 2025-04-02  ...                            -0.384781
+364 2025-04-03  ...                            -0.384781
+365 2025-04-04  ...                            -0.384781
+
+[366 rows x 14 columns])
+2025-04-04 08:14:36,569 - visualizer - INFO - Creating vaccination impact visualization
+2025-04-04 08:14:37,245 - visualizer - INFO - Saved vaccination impact visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_impact.png
+2025-04-04 08:14:37,246 - visualizer - DEBUG - Exiting visualize_vaccination_impact (execution time: 0.68s)
+2025-04-04 08:14:37,246 - visualizer - DEBUG - Entering create_regional_heatmap
+2025-04-04 08:14:37,261 - visualizer - DEBUG - create_regional_heatmap args: (<visualizer.VaccinationVisualizer object at 0x0000020C62AFC980>,        region  population  ...  second_dose_percentage_rank  booster_percentage_rank
+0       Seoul    10200000  ...                            1                        1
+1       Busan     3570000  ...                            4                        4
+2       Daegu     2550000  ...                            7                        7
+3     Incheon     3060000  ...                           12                       12
+4     Gwangju     1530000  ...                           13                       13
+5     Daejeon     1530000  ...                            9                        9
+6       Ulsan     1020000  ...                           16                       16
+7      Sejong      510000  ...                            3                        3
+8    Gyeonggi    12750000  ...                            2                        2
+9     Gangwon     1530000  ...                           14                       14
+10   Chungbuk     1530000  ...                           17                       17
+11   Chungnam     2040000  ...                           15                       15
+12    Jeonbuk     1530000  ...                            6                        6
+13    Jeonnam     1530000  ...                           10                       10
+14  Gyeongbuk     2550000  ...                            8                        8
+15  Gyeongnam     3060000  ...                           11                       11
+16       Jeju      510000  ...                            5                        5
+
+[17 rows x 15 columns])
+2025-04-04 08:14:37,261 - visualizer - INFO - Creating regional heatmap visualization
+2025-04-04 08:14:38,050 - visualizer - INFO - Saved regional heatmap to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_heatmap.png
+2025-04-04 08:14:38,142 - visualizer - DEBUG - Exiting create_regional_heatmap (execution time: 0.88s)
+2025-04-04 08:14:38,348 - visualizer - DEBUG - Entering create_dashboard
+2025-04-04 08:14:38,349 - visualizer - DEBUG - create_dashboard args: (<visualizer.VaccinationVisualizer object at 0x0000020C62AFC980>, {'report_date': '2025-04-04', 'first_dose_percentage': np.float64(82.9), 'second_dose_percentage': np.float64(81.84), 'booster_percentage': np.float64(54.0), 'daily_vaccinations_last_week': 193597, 'weekly_change_percentage': np.float64(-0.6), 'top_region': 'Seoul', 'bottom_region': 'Chungbuk', 'regional_variation': np.float64(37.94)}, 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\vaccination_progress.png', 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\regional_comparison.png', 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\vaccine_distribution.png', 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\vaccination_impact.png')
+2025-04-04 08:14:38,349 - visualizer - INFO - Creating dashboard
+2025-04-04 08:14:38,370 - visualizer - INFO - Saved dashboard to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\dashboard.html
+2025-04-04 08:14:38,418 - visualizer - DEBUG - Exiting create_dashboard (execution time: 0.07s)
+2025-04-04 08:56:55,395 - visualizer - DEBUG - Entering visualize_vaccination_progress
+2025-04-04 08:56:55,416 - visualizer - DEBUG - visualize_vaccination_progress args: (<visualizer.VaccinationVisualizer object at 0x0000019FBC6E8EC0>,           date  daily_first_dose  ...  daily_booster_change  daily_total_change
+0   2024-04-04           6149243  ...                   NaN                 NaN
+1   2024-04-05             79581  ...                   NaN          -98.705841
+2   2024-04-06             80435  ...                   NaN            1.073120
+3   2024-04-07             81296  ...                   NaN            1.070430
+4   2024-04-08             82160  ...                   NaN            1.062783
+..         ...               ...  ...                   ...                 ...
+361 2025-03-31             16716  ...             -0.353019           -0.574366
+362 2025-04-01             16479  ...             -0.362751           -0.581792
+363 2025-04-02             16247  ...             -0.373894           -0.588296
+364 2025-04-03             16018  ...             -0.383842           -0.594375
+365 2025-04-04             15790  ...             -0.395218           -0.602633
+
+[366 rows x 29 columns])
+2025-04-04 08:56:55,416 - visualizer - INFO - Creating vaccination progress visualization
+2025-04-04 08:56:56,121 - visualizer - INFO - Saved vaccination progress visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_progress.png
+2025-04-04 08:56:56,122 - visualizer - DEBUG - Exiting visualize_vaccination_progress (execution time: 0.71s)
+2025-04-04 08:56:56,122 - visualizer - DEBUG - Entering visualize_regional_comparison
+2025-04-04 08:56:56,148 - visualizer - DEBUG - visualize_regional_comparison args: (<visualizer.VaccinationVisualizer object at 0x0000019FBC6E8EC0>,        region  population  ...  second_dose_percentage_rank  booster_percentage_rank
+0       Seoul    10200000  ...                            1                        1
+1       Busan     3570000  ...                            4                        4
+2       Daegu     2550000  ...                            7                        7
+3     Incheon     3060000  ...                           12                       12
+4     Gwangju     1530000  ...                           13                       13
+5     Daejeon     1530000  ...                            9                        9
+6       Ulsan     1020000  ...                           16                       16
+7      Sejong      510000  ...                            3                        3
+8    Gyeonggi    12750000  ...                            2                        2
+9     Gangwon     1530000  ...                           14                       14
+10   Chungbuk     1530000  ...                           17                       17
+11   Chungnam     2040000  ...                           15                       15
+12    Jeonbuk     1530000  ...                            6                        6
+13    Jeonnam     1530000  ...                           10                       10
+14  Gyeongbuk     2550000  ...                            8                        8
+15  Gyeongnam     3060000  ...                           11                       11
+16       Jeju      510000  ...                            5                        5
+
+[17 rows x 15 columns])
+2025-04-04 08:56:56,149 - visualizer - INFO - Creating regional comparison visualization
+2025-04-04 08:56:56,634 - visualizer - INFO - Saved regional comparison visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_comparison.png
+2025-04-04 08:56:56,635 - visualizer - DEBUG - Exiting visualize_regional_comparison (execution time: 0.49s)
+2025-04-04 08:56:56,635 - visualizer - DEBUG - Entering visualize_vaccine_distribution
+2025-04-04 08:56:56,675 - visualizer - DEBUG - visualize_vaccine_distribution args: (<visualizer.VaccinationVisualizer object at 0x0000019FBC6E8EC0>,           date  daily_first_dose  ...  daily_booster_change  daily_total_change
+0   2024-04-04           6149243  ...                   NaN                 NaN
+1   2024-04-05             79581  ...                   NaN          -98.705841
+2   2024-04-06             80435  ...                   NaN            1.073120
+3   2024-04-07             81296  ...                   NaN            1.070430
+4   2024-04-08             82160  ...                   NaN            1.062783
+..         ...               ...  ...                   ...                 ...
+361 2025-03-31             16716  ...             -0.353019           -0.574366
+362 2025-04-01             16479  ...             -0.362751           -0.581792
+363 2025-04-02             16247  ...             -0.373894           -0.588296
+364 2025-04-03             16018  ...             -0.383842           -0.594375
+365 2025-04-04             15790  ...             -0.395218           -0.602633
+
+[366 rows x 29 columns])
+2025-04-04 08:56:56,708 - visualizer - INFO - Creating vaccine distribution visualization
+2025-04-04 08:56:57,100 - visualizer - INFO - Saved vaccine distribution visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccine_distribution.png
+2025-04-04 08:56:57,100 - visualizer - DEBUG - Exiting visualize_vaccine_distribution (execution time: 0.39s)
+2025-04-04 08:56:57,101 - visualizer - DEBUG - Entering visualize_vaccination_impact
+2025-04-04 08:56:57,112 - visualizer - DEBUG - visualize_vaccination_impact args: (<visualizer.VaccinationVisualizer object at 0x0000019FBC6E8EC0>,           date  ...  booster_percentage_case_correlation
+0   2024-04-04  ...                            -0.384781
+1   2024-04-05  ...                            -0.384781
+2   2024-04-06  ...                            -0.384781
+3   2024-04-07  ...                            -0.384781
+4   2024-04-08  ...                            -0.384781
+..         ...  ...                                  ...
+361 2025-03-31  ...                            -0.384781
+362 2025-04-01  ...                            -0.384781
+363 2025-04-02  ...                            -0.384781
+364 2025-04-03  ...                            -0.384781
+365 2025-04-04  ...                            -0.384781
+
+[366 rows x 14 columns])
+2025-04-04 08:56:57,112 - visualizer - INFO - Creating vaccination impact visualization
+2025-04-04 08:56:57,731 - visualizer - INFO - Saved vaccination impact visualization to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\vaccination_impact.png
+2025-04-04 08:56:57,731 - visualizer - DEBUG - Exiting visualize_vaccination_impact (execution time: 0.62s)
+2025-04-04 08:56:57,732 - visualizer - DEBUG - Entering create_regional_heatmap
+2025-04-04 08:56:57,742 - visualizer - DEBUG - create_regional_heatmap args: (<visualizer.VaccinationVisualizer object at 0x0000019FBC6E8EC0>,        region  population  ...  second_dose_percentage_rank  booster_percentage_rank
+0       Seoul    10200000  ...                            1                        1
+1       Busan     3570000  ...                            4                        4
+2       Daegu     2550000  ...                            7                        7
+3     Incheon     3060000  ...                           12                       12
+4     Gwangju     1530000  ...                           13                       13
+5     Daejeon     1530000  ...                            9                        9
+6       Ulsan     1020000  ...                           16                       16
+7      Sejong      510000  ...                            3                        3
+8    Gyeonggi    12750000  ...                            2                        2
+9     Gangwon     1530000  ...                           14                       14
+10   Chungbuk     1530000  ...                           17                       17
+11   Chungnam     2040000  ...                           15                       15
+12    Jeonbuk     1530000  ...                            6                        6
+13    Jeonnam     1530000  ...                           10                       10
+14  Gyeongbuk     2550000  ...                            8                        8
+15  Gyeongnam     3060000  ...                           11                       11
+16       Jeju      510000  ...                            5                        5
+
+[17 rows x 15 columns])
+2025-04-04 08:56:57,742 - visualizer - INFO - Creating regional heatmap visualization
+2025-04-04 08:56:58,386 - visualizer - INFO - Saved regional heatmap to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\regional_heatmap.png
+2025-04-04 08:56:58,386 - visualizer - DEBUG - Exiting create_regional_heatmap (execution time: 0.64s)
+2025-04-04 08:56:58,389 - visualizer - DEBUG - Entering create_dashboard
+2025-04-04 08:56:58,389 - visualizer - DEBUG - create_dashboard args: (<visualizer.VaccinationVisualizer object at 0x0000019FBC6E8EC0>, {'report_date': '2025-04-04', 'first_dose_percentage': np.float64(82.9), 'second_dose_percentage': np.float64(81.84), 'booster_percentage': np.float64(54.0), 'daily_vaccinations_last_week': 193597, 'weekly_change_percentage': np.float64(-0.6), 'top_region': 'Seoul', 'bottom_region': 'Chungbuk', 'regional_variation': np.float64(37.94)}, 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\vaccination_progress.png', 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\regional_comparison.png', 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\vaccine_distribution.png', 'C:\\Users\\mycol\\edu\\SouthKoreaVaccineProject\\output\\vaccination_impact.png')
+2025-04-04 08:56:58,389 - visualizer - INFO - Creating dashboard
+2025-04-04 08:56:58,430 - visualizer - INFO - Saved dashboard to C:\Users\mycol\edu\SouthKoreaVaccineProject\output\dashboard.html
+2025-04-04 08:56:58,430 - visualizer - DEBUG - Exiting create_dashboard (execution time: 0.04s)
